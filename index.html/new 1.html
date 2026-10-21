@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Menu | Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="tag">BIENVENUE CHEZ</p>
+      <h1>Le Gourmet</h1>
+      <p>Des saveurs qui font la difference.</p>
+      <div class="table-number">Table N° 01</div>
+    </header>
+
+    <main class="container">
+      <section class="intro">
+        <h2>Notre Menu</h2>
+        <p>Choisissez vos plats preferes</p>
+      </section>
+
+      <section class="menu-grid" id="menu">
+        <!-- Les plats seront ajoutes par JavaScript -->
+      </section>
+    </main>
+
+    <section class="cart">
+      <div>
+        <strong>Votre commande</strong>
+        <p id="cart-info">0 article</p>
+      </div>
+      <div class="cart-right">
+        <strong id="total">0.000 DT</strong>
+        <button id="cart-button" type="button">Voir le panier</button>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
